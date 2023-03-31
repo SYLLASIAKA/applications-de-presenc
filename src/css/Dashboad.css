@@ -1,0 +1,111 @@
+.hparent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.divdesp{
+    box-sizing: border-box;
+    padding: 20px;
+}
+.h2dasboard{
+    background-color:rgba(76, 76, 230, 0.797);
+    /* width: 50%; */
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    height: 40px;
+    line-height: 1.9;
+    font-size: 20px;
+    box-shadow: 0 0 10px black;
+    text-transform: capitalize;
+}
+.div-des_button{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 0;
+    align-items: space-around;
+}
+.butmarquer{
+    font-size: 17px;
+    margin-top: 20px;
+    height: 30px;
+    text-transform: capitalize;
+    border: 2px solid black;
+    color: black;
+    border-radius: 5px;
+    background-color: white;
+    transition: all .5s ease 0s;
+}
+.butmarquer:hover{
+    background-color: rgb(207, 209, 235);
+    cursor: pointer;
+}
+.h1dasboard{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    overflow: scroll;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: center;
+    overflow: scroll;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color:rgb(72, 72, 228);
+    color: white;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f3eeee;
+  }
+  
+.poyo{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.peror{
+  color: red;
+}
+@media screen and (max-width: 1280px) {
+  .hparent{
+    display: block;
+  }
+  .h1dasboard{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .butmarquer{
+    border: none;
+    box-shadow: 0 0 5px black;
+  }
+  .divdesp{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .h2dasboard{
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 638.40px) {
+  .divdesp{
+    display: block;
+  }
+}
